@@ -1,0 +1,33 @@
+.filmaCardWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.filmaCard {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 15px;
+  gap: 15px;
+  padding: 10px 15px;
+  inline-size: 300px;
+  overflow-wrap: break-word;
+  flex-wrap: wrap;
+  background-color: bisque;
+}
+
+.commentWrapper {
+  border: 1px solid black;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.btnWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}

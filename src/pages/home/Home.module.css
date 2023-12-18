@@ -1,0 +1,26 @@
+
+
+.homeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeMain {
+  border: 1px black solid;
+  overflow-wrap: break-word;
+  padding: 30px 40px;
+  border-radius: 15px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+}
+
+
